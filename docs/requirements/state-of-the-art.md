@@ -194,7 +194,8 @@ ABAC як форма логічного контролю доступу стал
 
 ### [Gapminder](https://www.gapminder.org/)
 
-[інформація про ↑]
+Gapminder є незалежною шведською фундацією, яка не має політичних, релігійних чи економічних зв’язків.
+Gapminder виявляє систематичні помилкові уявлення про важливі глобальні тенденції та пропорції та використовує надійні дані для розробки простих для розуміння навчальних матеріалів, щоб позбавити людей їхніх неправильних уявлень.
 
 ### [The World Bank DataBank](https://databank.worldbank.org/)
 
@@ -202,7 +203,7 @@ ABAC як форма логічного контролю доступу стал
 
 ### [EuroStat](https://ec.europa.eu/eurostat/web/main/data/database)
 
-[інформація про ↑]
+Євростат є статистичним офісом Європейського Союзу, відповідальним за публікацію високоякісної загальноєвропейської статистики та показників, які дозволяють порівнювати між країнами та регіонами.
 
 ### [Google Public Data Explorer](https://www.google.com/publicdata/directory)
 
@@ -210,7 +211,7 @@ ABAC як форма логічного контролю доступу стал
 
 ### [Dataverse](https://dataverse.org/)
 
-[інформація про ↑]
+Dataverse — це веб-програма з відкритим вихідним кодом для обміну, збереження, цитування, вивчення та аналізу даних досліджень. Дослідники, автори даних, видавці, розповсюджувачі даних і афілійовані установи отримують належну оцінку через цитування даних із постійним ідентифікатором
 
 Критерії:
 
@@ -233,6 +234,16 @@ ABAC як форма логічного контролю доступу стал
 ## Посилання 
 
 *Даний розділ містить повний список всіх документів, про які згадується.*
+
+[commission.europa.eu](https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/eurostat-european-statistics_en#:~:text=Eurostat%20is%20the%20statistical%20office,Page%20contents)
+
+[Dataverse](https://en.wikipedia.org/wiki/Dataverse)
+
+[gapminder.org](https://www.gapminder.org/about/)
+
+[ABAC wiki](https://en.wikipedia.org/wiki/Attribute-based_access_control)
+
+[RBAC wiki](https://en.wikipedia.org/wiki/Role-based_access_control)
 
 [TensorFlow wiki](https://uk.wikipedia.org/wiki/TensorFlow)
 
