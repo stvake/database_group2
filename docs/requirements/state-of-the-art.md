@@ -282,44 +282,26 @@ Dataverse — це веб-програма з відкритим вихідни�
 
 ## Висновки
 
-В сучасному інформаційному суспільстві управління даними є необхідним для ефективної роботи з інформацією. Життєвий цикл даних представляє собою структурований підхід до управління даними на різних етапах їх існування, починаючи від їх створення і закінчуючи видаленням.
-
-Досліджуючи різні засоби для роботи з даними, можна побачити широкий спектр інструментів, які пропонують різні можливості для вилучення, аналізу та представлення даних. Ці засоби відкривають перед користувачами двері до широкого спектру даних, що можуть використовуватись у всіх сферах нашого життя.
-
-В кінцевому підсумку, управління даними і їх вилучення в сучасному світі відіграють ключову роль в аналізі, розумінні та передачі інформації.
+У сучасному цифровому світі ефективне управління даними має вирішальне значення для обробки інформації.  
+Вивчаючи різні інструменти для роботи з даними, можна знайти велику кількість інструментів, які пропонують різні функціональні можливості для вилучення, аналізу та візуалізації даних. Ці інструменти надають користувачам доступ до великих обсягів даних, які можна використовувати в різних сферах нашого життя.  
+Як наслідок, у сучасному світі управління даними та їх видобування відіграють важливу роль в аналізі, розумінні та передачі інформації.
 
 ## Посилання 
 
 *Даний розділ містить повний список всіх документів, про які згадується.*
 
-[commission.europa.eu](https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/eurostat-european-statistics_en#:~:text=Eurostat%20is%20the%20statistical%20office,Page%20contents)
-
-[Dataverse](https://en.wikipedia.org/wiki/Dataverse)
-
-[gapminder.org](https://www.gapminder.org/about/)
-
-[ABAC wiki](https://en.wikipedia.org/wiki/Attribute-based_access_control)
-
-[RBAC wiki](https://en.wikipedia.org/wiki/Role-based_access_control)
-
-[TensorFlow wiki](https://uk.wikipedia.org/wiki/TensorFlow)
-
-[TensorFlow wiki](https://ru.wikipedia.org/wiki/TensorFlow)
-
-[TFX](https://www.tensorflow.org/tfx/guide)
-
-[D3](https://d3js.org/what-is-d3)
-
-[Bokeh](https://bokeh.org/)
-
-[Bokeh docs](https://docs.bokeh.org/en/latest/index.html#)
-
-[okta.com](https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/)
-
-[NoSQL](https://uk.wikipedia.org/wiki/NoSQL)
-
-[Relational databases](https://polaridad.es/uk/%D1%89%D0%BE-%D1%82%D0%B0%D0%BA%D0%B5-rdbms-%D0%B2%D1%81%D0%B5%2C-%D1%89%D0%BE-%D0%B2%D0%B0%D0%BC-%D0%BF%D0%BE%D1%82%D1%80%D1%96%D0%B1%D0%BD%D0%BE-%D0%B7%D0%BD%D0%B0%D1%82%D0%B8-%D0%BF%D1%80%D0%BE-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8-%D0%BA%D0%B5%D1%80%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D0%BC%D0%B8-%D0%B1%D0%B0%D0%B7%D0%B0%D0%BC%D0%B8-%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/)
-
-[Cloud Storage Systems](https://uk.wikipedia.org/wiki/%D0%A5%D0%BC%D0%B0%D1%80%D0%BD%D1%96_%D1%81%D1%85%D0%BE%D0%B2%D0%B8%D1%89%D0%B0#:~:text=cloud%20storage%2C%20%D0%B0%D0%B1%D0%BE%20%D1%89%D0%B5%20%D1%85%D0%BC%D0%B0%D1%80%D0%B0,%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D0%B8%D0%BC%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F%D0%BC%2C%20%D1%8F%D0%BA%D1%96%20%D0%BD%D0%B8%D0%BC%20%D0%BA%D0%B5%D1%80%D1%83%D1%8E%D1%82%D1%8C.)
-
-
+[commission.europa.eu](https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/eurostat-european-statistics_en#:~:text=Eurostat%20is%20the%20statistical%20office,Page%20contents)  
+[Dataverse](https://en.wikipedia.org/wiki/Dataverse)  
+[gapminder.org](https://www.gapminder.org/about/)  
+[ABAC wiki](https://en.wikipedia.org/wiki/Attribute-based_access_control)  
+[RBAC wiki](https://en.wikipedia.org/wiki/Role-based_access_control)  
+[TensorFlow wiki](https://uk.wikipedia.org/wiki/TensorFlow)  
+[TensorFlow wiki](https://ru.wikipedia.org/wiki/TensorFlow)  
+[TFX](https://www.tensorflow.org/tfx/guide)  
+[D3](https://d3js.org/what-is-d3)  
+[Bokeh](https://bokeh.org/)  
+[Bokeh docs](https://docs.bokeh.org/en/latest/index.html#)  
+[okta.com](https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/)  
+[NoSQL](https://uk.wikipedia.org/wiki/NoSQL)  
+[Relational databases](https://polaridad.es/uk/%D1%89%D0%BE-%D1%82%D0%B0%D0%BA%D0%B5-rdbms-%D0%B2%D1%81%D0%B5%2C-%D1%89%D0%BE-%D0%B2%D0%B0%D0%BC-%D0%BF%D0%BE%D1%82%D1%80%D1%96%D0%B1%D0%BD%D0%BE-%D0%B7%D0%BD%D0%B0%D1%82%D0%B8-%D0%BF%D1%80%D0%BE-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8-%D0%BA%D0%B5%D1%80%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D0%BC%D0%B8-%D0%B1%D0%B0%D0%B7%D0%B0%D0%BC%D0%B8-%D0%B4%D0%B0%D0%BD%D0%B8%D1%85/)  
+[Cloud Storage Systems](https://uk.wikipedia.org/wiki/%D0%A5%D0%BC%D0%B0%D1%80%D0%BD%D1%96_%D1%81%D1%85%D0%BE%D0%B2%D0%B8%D1%89%D0%B0#:~:text=cloud%20storage%2C%20%D0%B0%D0%B1%D0%BE%20%D1%89%D0%B5%20%D1%85%D0%BC%D0%B0%D1%80%D0%B0,%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D0%B8%D0%BC%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F%D0%BC%2C%20%D1%8F%D0%BA%D1%96%20%D0%BD%D0%B8%D0%BC%20%D0%BA%D0%B5%D1%80%D1%83%D1%8E%D1%82%D1%8C.)  
