@@ -52,8 +52,6 @@
 
 </center>
 
-</center>
-
 ## Відвідувач
 
 <center style="
