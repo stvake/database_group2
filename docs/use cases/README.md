@@ -272,7 +272,7 @@
     |Користувач|
     stop
 
-    @enduml
+@enduml
 
 </center>
 
