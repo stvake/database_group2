@@ -9,7 +9,46 @@
     padding: 1em;"
 >
 
-[Полный код диаграммы всавлять сюда]
+@startuml
+
+    actor "Гість" as Guest
+    actor "Користувач" as User
+    actor "Адміністратор" as Admin
+
+    usecase "<b>Guest.Search<b> \n Пошук даних гостем" as GS
+    usecase "<b>Guest.SignUp<b> \n Реєстрація в системі" as GSU
+    usecase "<b>Guest.SignIn<b> \n Вхід у систему" as GSI
+    
+    usecase "<b>User.Logout<b> \n Вихід користувача із системи" as UL
+    usecase "<b>User.Search<b> \n Пошук даних користувачем" as US
+    usecase "<b>User.Download<b> \n Завантаження даних" as UD
+    usecase "<b>User.UploadRequest<b> \n Запит користувача \n на завантаження даних" as UUR
+    usecase "<b>User.EditRequest<b> \n Запит користувача \n на редагування даних" as UER
+    
+    usecase "<b>Admin.Logout<b> \n Вихід адміністратора із системи" as AL
+    usecase "<b>Admin.ChangeUserPermissions<b> \n Зміна прав користувача \n адміністратором" as ACUP
+    usecase "<b>Admin.ApproveRequest<b> \n Схвалити запит користувача \n адміністратором" as AAR
+    usecase "<b>Admin.DenieRequest<b> \n Відмовити запит користувача \n адміністратором" as ADR
+    
+    Guest -u-> GS
+    Guest -u-> GSU
+    Guest -u-> GSI
+    
+    User -u-> UL
+    User -u-> US
+    User -r-> UUR
+    User -l-> UER
+    User -d-> UD
+    
+    Admin -l-> AL 
+    Admin -r-> ACUP 
+    Admin -d-> AAR
+    Admin -d-> ADR
+    
+    Admin -u-|> User
+    User -u-|> Guest
+
+@enduml
 
 </center>
 
@@ -48,7 +87,24 @@
     padding: 1em;"
 >
 
-[Полный код диаграммы всавлять сюда]
+@startuml
+    
+    actor "Адміністратор" as Admin
+    
+    usecase "<b>Admin.Logout<b> \n Вихід адміністратора \n з системи" as AL
+    usecase "<b>Admin.ChangeUserPermissions<b> \n Зміна прав користувача \n адміністратором" as ACUP
+    usecase "<b>Admin.ConsiderRequest<b> \n Розглянути запит користувача" as ACR
+    usecase "<b>Admin.ApproveRequest<b> \n Схвалити запит користувача" as AAR
+    usecase "<b>Admin.DenieRequest<b> \n Відмовити запит користувача" as ADR
+    
+    Admin -d-> AL
+    Admin -r-> ACUP
+    Admin -l-> ACR
+    
+    AAR .u.> ACR:extends
+    ADR .d.> ACR:extends
+
+@enduml
 
 </center>
 
