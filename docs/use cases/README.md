@@ -61,7 +61,19 @@
     padding: 1em;"
 >
 
-[Полный код диаграммы всавлять сюда]
+@startuml
+
+    actor "Відвідувач" as Guest
+
+    usecase "<b>Guest.Search<b> \n Пошук даних" as GS
+    usecase "<b>Guest.SignUp<b> \n Реєстрація в системі" as GSU
+    usecase "<b>Guest.SignIn<b> \n Вхід у систему" as GSI
+
+    Guest -u-> GSU
+    Guest -u-> GS
+    Guest -u-> GSI
+
+@enduml
 
 </center>
 
@@ -74,7 +86,26 @@
     padding: 1em;"
 >
 
-[Полный код диаграммы всавлять сюда]
+@startuml
+
+    actor "Користувач" as User
+
+    usecase "<b>User.Logout<b> \n Вихід користувача із системи" as UL
+    usecase "<b>User.Search<b> \n Пошук даних" as US
+    usecase "<b>User.Download<b> \n Завантаження доступних \n даних з системи" as UD
+    usecase "<b>User.DataChangeRequest<b> \n Запит користувача \n щодо зміни даних" as UCR
+    usecase "<b>User.UploadRequest<b> \n Запит користувача на \n завантаження нових даних" as UUR
+    usecase "<b>User.EditRequest<b> \n Запит користувача \n на редагування даних" as UER
+
+    User -u-> UL
+    User -d-> US
+    User -l-> UCR
+    User -r-> UD
+
+    UUR .u.> UCR:extends
+    UER .d.> UCR:extends
+
+@enduml
 
 </center>
 
