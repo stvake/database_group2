@@ -174,3 +174,7 @@
 
 </center>
 
+## Реляційна схема
+
+![relation_scheme](./photo/Shema.png)
+
