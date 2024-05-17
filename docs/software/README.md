@@ -3,8 +3,8 @@
 В рамках проекту розробляється: 
 - SQL-скрипт для створення на початкового наповнення бази даних
 
-
-        -- MySQL Workbench Forward Engineering
+```sql
+    -- MySQL Workbench Forward Engineering
     
     SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
     SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
@@ -312,7 +312,7 @@
     INSERT INTO `mydb`.`Grant_ Permission` (`Permission_Permission.id`, `Role_Role.id`) VALUES (3, 3);
 
     COMMIT;
-
+```
 
 - RESTfull сервіс для управління даними
 
