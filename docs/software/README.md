@@ -397,8 +397,6 @@ class Users:
         except mysql.connector.Error as err:
             self.connection.rollback()
             return {'message': 'Failed to add user', 'error': str(err), 'status_code': 500}
-        except ValueError:
-            return {"message": "Invalid user id", "error": "Bad Request", "status_code": 400}
 
     def delete_user(self, user_id):
         try:
