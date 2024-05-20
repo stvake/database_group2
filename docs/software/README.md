@@ -464,12 +464,8 @@ def get_user_by_id(user_id):
 
 @app.route("/users/add", methods=['POST'])
 def add_user():
-    form_data = request.form.to_dict()
     url_params = request.args.to_dict()
-
-    info = {**form_data, **url_params}
-
-    return jsonify(users.add_user(info))
+    return jsonify(users.add_user(url_params))
 
 
 @app.route("/users/delete/<user_id>", methods=['DELETE'])
@@ -479,10 +475,6 @@ def delete_user(user_id):
 
 @app.route("/users/update/<user_id>", methods=['PUT'])
 def update_user(user_id):
-    form_data = request.form.to_dict()
     url_params = request.args.to_dict()
-
-    info = {**form_data, **url_params}
-
-    return jsonify(users.update_user(user_id, info))
+    return jsonify(users.update_user(user_id, url_params))
 ```
