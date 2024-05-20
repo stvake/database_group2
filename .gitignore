@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+./src/RESTfull_python/.idea/
+./src/RESTfull_python/__pycache__/
